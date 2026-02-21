@@ -1,0 +1,33 @@
+# --- OpenSCAD ---
+# Ignore exported geometry (regeneratable from source)
+*.stl
+*.obj
+*.3mf
+*.off
+*.amf
+*.png
+*.gif
+
+# --- FreeCAD ---
+# FreeCAD creates lock files while a document is open
+*.lck
+# Backup files created by FreeCAD (e.g., filename.FCStd1)
+*.FCStd?
+# Thumbnail and UI state files
+*.FCStd.bak
+.directory
+
+# --- General CAD/OS ---
+# Ignore mass-produced renders or logs
+*.log
+*.echo
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# --- Project Management ---
+# If you use a local build or export folder
+/build/
+/dist/
+/out/
