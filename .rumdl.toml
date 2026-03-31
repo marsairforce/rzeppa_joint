@@ -30,6 +30,7 @@ tables = false # You might want to disable line checking for tables too
 # MD024: Multiple headings per section (siblings_only)
 [MD024]
 siblings-only = true
+allow_different_nesting = true
 
 # MD046: Code block style (fenced)
 [MD046]

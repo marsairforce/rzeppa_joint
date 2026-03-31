@@ -19,6 +19,11 @@ body = """
             {{ commit.message | upper_first }}\
     {% endfor %}
 {% endfor %}
+
+"""
+header = """
+# Changes
+
 """
 # Remove leading and trailing whitespaces from the changelog's body.
 trim = true
